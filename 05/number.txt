@@ -1,0 +1,4 @@
+8388608.0
+Printing 10^28 for baseht_area: 5.0E28
+HERON_AREA: NaN
+BASEHT_AREA: 5.0E19

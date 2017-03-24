@@ -1,0 +1,30 @@
+oreid@Olivers-MacBook-Pro:~/Google Drive/University/326/12$ python -m cProfile ~/Documents/University/326/02/g711.py 
+         22019 function calls in 1325.003 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     9900 1324.959    0.134 1324.966    0.134 g711.py:12(findNumber)
+        1    0.037    0.037 1325.003 1325.003 g711.py:6(<module>)
+    12116    0.007    0.000    0.007    0.000 {len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {range}
+
+oreid@Olivers-MacBook-Pro:~/Google Drive/University/326/12$ python -m cProfile 12.py 10000
+        1418854 function calls in 205.552 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000  205.552  205.552 12.py:10(<module>)
+     1251    0.012    0.000    0.017    0.000 12.py:31(giveAnswer)
+     9900    3.600    0.000    4.650    0.000 12.py:49(getFactors)
+     9900  200.737    0.020  205.483    0.021 12.py:58(findNumber)
+        1    0.050    0.050  205.552  205.552 12.py:91(main)
+   697407    0.095    0.000    0.095    0.000 {len}
+   682986    0.084    0.000    0.084    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+     6255    0.005    0.000    0.005    0.000 {method 'format' of 'str' objects}
+     1251    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+     9901    0.968    0.000    0.968    0.000 {range}
+

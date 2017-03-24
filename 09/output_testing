@@ -1,0 +1,58 @@
+Exactly 10
+
+Exactly 10
+
+Error in first timestamp
+year need 4 digits
+
+Error in first timestamp
+year is out of range
+
+Error in first timestamp
+month need 2 digits
+
+Error in first timestamp
+month is out of range
+
+Error in first timestamp
+day needs 2 digits
+
+Error in first timestamp
+day is out of range
+
+Error in first timestamp
+hour needs two digits
+
+Error in first timestamp
+hour is out of range
+
+Error in first timestamp
+minute needs 2 digits
+
+Error in first timestamp
+minute is out of range
+
+Error in first timestamp
+second needs 2 digits
+
+Error in first timestamp
+second is out of range
+
+Error in first timestamp
+hour is out of range
+minute is out of range
+second is out of range
+
+Error in first timestamp
+T is missing
+
+Error in first timestamp
+Z is missing
+
+Error in first timestamp
+date seperators don't match
+
+Error in first timestamp
+time seperators don't match
+
+Exactly 1
