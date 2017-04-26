@@ -2,7 +2,7 @@
 This program solves the generalized 711 problem. It tries a bruteforce approach but also
 checks for math like properties e.g. if a number divides by the sum num multipled.
 
-Oliver Reid - 2569385
+Thomas Youngson - 7444007
 """
 
 #Globals
